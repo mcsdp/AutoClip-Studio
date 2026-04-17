@@ -300,9 +300,6 @@ function MainApp() {
             <Scissors className="w-4 h-4" />
             <span className="text-sm font-semibold uppercase tracking-widest">AutoClip Studio</span>
           </div>
-          <p className="text-sm text-muted-foreground">
-            Powered by Gemini AI & FFmpeg.wasm
-          </p>
         </div>
       </footer>
     </div>
