@@ -20,7 +20,10 @@ export default defineConfig(({mode}) => {
       },
     },
     optimizeDeps: {
-      exclude: ['@ffmpeg/ffmpeg', '@ffmpeg/util'],
+      include: ['@ffmpeg/ffmpeg', '@ffmpeg/util'],
+    },
+    build: {
+      target: 'esnext',
     },
   };
 });
